@@ -1,0 +1,24 @@
+title: Tekly Studio
+description: Strategic Innovation for AI-Native Startups
+url: https://tekly.dev
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+
+# Theme settings
+theme: minima
+minima:
+  skin: classic
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md
